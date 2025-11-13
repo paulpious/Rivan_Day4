@@ -431,7 +431,7 @@ BLUE TEAM
 Protect you Network
 Create an extended ACL named FWP3
 Open only the following ports:
-  http, https, ping, ssh, dns
+  http (80), https (443), ping (icmp), ssh (22), dns (, domain (53)
 
 ~~~
 !@UTM-PH
