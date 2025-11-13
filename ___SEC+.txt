@@ -340,15 +340,15 @@ conf t
 ## Packet Filtering (L3 ACL)
 ~~~
 !@UTM-PH
-youporn.com 66.254.114.79
+youporn.com 66.254.114.79 !*SINCE SAME 66.254.114.0/24
 pornhub.com 66.254.114.41
 redtube.com 66.254.114.238
 faketaxi.com 66.254.114.234
 bangbros.com 66.254.114.234
-bangbus.com 172.67.133.24
-pinayflix.com 104.21.55.88
-xhamster.com 104.10.146.40
-iyottube.com 208.77.20.35
+bangbus.com 172.67.133.24 172.67.133.0/24
+pinayflix.com 104.21.55.88 104.21.55.0/24
+xhamster.com 104.10.146.40 104.10.146.0/24
+iyottube.com 208.77.20.35 208.77.20.0/24
 ~~~
 
 Protect your most important asset: The brain
